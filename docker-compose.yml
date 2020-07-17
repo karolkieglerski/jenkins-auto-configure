@@ -1,6 +1,6 @@
-version: '2'
+version: "3.8"
 services:
-  jenkins:
+ jenkins:
     build: .
     ports:
       - "80:8080"
